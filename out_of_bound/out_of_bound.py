@@ -1,7 +1,7 @@
 # https://dreamhack.io/wargame/challenges/11
 
 from pwn import *
-context.log_level = 'DEBUG'
+context.log_level = 'debug'
 p = remote("host3.dreamhack.games", 10817)
 #p = process("./out_of_bound")
 
